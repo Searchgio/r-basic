@@ -97,7 +97,7 @@ asin(5) #arc sin x in [-1,1]
 
 acos(-8)
 
-print(sqrt(2),10)
+print(sqrt(2), digits = 10)
 round(sqrt(2), 3)
 floor(sqrt(2))
 ceiling(sqrt(2))
@@ -108,9 +108,9 @@ sqrt(2)^2-2
 round(sqrt(2), 4)^2
 
 2^50
-print(2^50, 15)
-print(2^50, 2)
-print(pi, 22)
+print(2^50, digits = 15)
+print(2^50, digits = 2)
+print(pi, digits = 22)
 #3.141592653589793115998
 #3.141592653589793238462
 
